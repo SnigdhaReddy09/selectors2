@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    background-color: gainsboro;
+}
+.head{
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100;
+}
+a{
+    background-color: steelblue;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+}
+#one{
+    background-color: white;
+    padding: 10px;
+    margin: 10px 200px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#two{
+    background-color: white;
+    height: 180px;
+    padding: 10px;
+    margin: 10px 200px;
+}
+img{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.me{
+    margin-top: 50px;
+}
+#three{
+    background-color: white;
+    margin: 10px 200px;
+    padding: 10px;
+}
+thead{
+    background-color: skyblue;
+}
+table{
+    width: 100%;
+}
+th,td{
+    padding: 10px;
+}
+#four{
+    background-color: white;
+    margin: 10px 200px;
+    padding: 10px;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.project{
+    background-color: gainsboro;
+    width:350px;
+    border-radius: 10px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+.project img{
+    width: 15px;
+    height: 15px;
+    margin:0%;
+}
+.p1{
+    display: flex;
+}
+#five{
+    background-color: white;
+    margin: 10px 200px;
+    padding: 10px;
+}
+input,textarea{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.foot{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
